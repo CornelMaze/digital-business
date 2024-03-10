@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(assets/Roboto/Roboto-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(assets/Roboto/Roboto-Bold.ttf) format("opentype");
+}
+
+* {
+  font-family: "Roboto-Regular";
+}
