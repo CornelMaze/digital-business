@@ -1,7 +1,5 @@
 import {
-  ChangeDetectorRef,
   Component,
-  ElementRef,
   HostListener,
 } from '@angular/core';
 
@@ -38,9 +36,10 @@ export class AppComponent {
       return false;
     }
   }
-  ngOninIt() {
+  ngOnInit() {
     this.onActivate();
   }
+
   onActivate() {
     window.scroll({
       top: 0,
